@@ -16,5 +16,6 @@
 #import "DDTTYLogger.h"
 
 #import "NSManagedObjectContext+danthorpe.h"
+#import "AFNetworking.h"
 
 #endif

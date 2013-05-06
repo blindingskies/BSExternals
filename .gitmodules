@@ -4,3 +4,6 @@
 [submodule "Sources/NSManagedObjectContext-danthorpe"]
 	path = Sources/NSManagedObjectContext-danthorpe
 	url = git://github.com/danthorpe/NSManagedObjectContext-danthorpe.git
+[submodule "Sources/AFNetworking"]
+	path = Sources/AFNetworking
+	url = git://github.com/AFNetworking/AFNetworking.git
