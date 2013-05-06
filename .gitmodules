@@ -7,3 +7,6 @@
 [submodule "Sources/AFNetworking"]
 	path = Sources/AFNetworking
 	url = git://github.com/AFNetworking/AFNetworking.git
+[submodule "Sources/TTTAttributedLabel"]
+	path = Sources/TTTAttributedLabel
+	url = git://github.com/mattt/TTTAttributedLabel.git

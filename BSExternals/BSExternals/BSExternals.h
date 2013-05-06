@@ -17,5 +17,6 @@
 
 #import "NSManagedObjectContext+danthorpe.h"
 #import "AFNetworking.h"
+#import "TTTAttributedLabel.h"
 
 #endif
