@@ -1,3 +1,6 @@
 [submodule "Sources/CocoaLumberjack"]
 	path = Sources/CocoaLumberjack
 	url = git://github.com/robbiehanson/CocoaLumberjack.git
+[submodule "Sources/NSManagedObjectContext-danthorpe"]
+	path = Sources/NSManagedObjectContext-danthorpe
+	url = git://github.com/danthorpe/NSManagedObjectContext-danthorpe.git
