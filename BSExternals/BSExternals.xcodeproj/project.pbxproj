@@ -27,6 +27,8 @@
 		6503C0CC1736EF2A00346B45 /* DDFileLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6503C0B31736EAC100346B45 /* DDFileLogger.h */; };
 		6503C0CD1736EF3400346B45 /* DDASLLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6503C0B11736EAC100346B45 /* DDASLLogger.h */; };
 		6503C0CE1736EF3800346B45 /* DDAbstractDatabaseLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6503C0AF1736EAC100346B45 /* DDAbstractDatabaseLogger.h */; };
+		6503C12517383FDA00346B45 /* NSManagedObjectContext+danthorpe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6503C12317383FDA00346B45 /* NSManagedObjectContext+danthorpe.m */; };
+		6503C12617383FEE00346B45 /* NSManagedObjectContext+danthorpe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6503C12217383FDA00346B45 /* NSManagedObjectContext+danthorpe.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				6503C12617383FEE00346B45 /* NSManagedObjectContext+danthorpe.h in CopyFiles */,
 				6503C0C91736EF1900346B45 /* BSExternals.h in CopyFiles */,
 				6503C0CA1736EF2300346B45 /* DDLog.h in CopyFiles */,
 				6503C0CB1736EF2600346B45 /* DDTTYLogger.h in CopyFiles */,
@@ -84,6 +87,8 @@
 		6503C0BD1736EAC100346B45 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		6503C0BE1736EAC100346B45 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		6503C0C61736EB2D00346B45 /* BSExternals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSExternals.h; sourceTree = "<group>"; };
+		6503C12217383FDA00346B45 /* NSManagedObjectContext+danthorpe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+danthorpe.h"; sourceTree = "<group>"; };
+		6503C12317383FDA00346B45 /* NSManagedObjectContext+danthorpe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+danthorpe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +146,7 @@
 		6503C0881736E6A400346B45 /* BSExternals */ = {
 			isa = PBXGroup;
 			children = (
+				6503C12117383FDA00346B45 /* NSManagedObjectContext-danthorpe */,
 				6503C0AE1736EAC100346B45 /* Lumberjack */,
 				6503C0891736E6A400346B45 /* Supporting Files */,
 			);
@@ -204,6 +210,16 @@
 				6503C0BE1736EAC100346B45 /* README.txt */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6503C12117383FDA00346B45 /* NSManagedObjectContext-danthorpe */ = {
+			isa = PBXGroup;
+			children = (
+				6503C12217383FDA00346B45 /* NSManagedObjectContext+danthorpe.h */,
+				6503C12317383FDA00346B45 /* NSManagedObjectContext+danthorpe.m */,
+			);
+			name = "NSManagedObjectContext-danthorpe";
+			path = "../../Sources/NSManagedObjectContext-danthorpe";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +327,7 @@
 				6503C0C31736EAC100346B45 /* DDTTYLogger.m in Sources */,
 				6503C0C41736EAC100346B45 /* ContextFilterLogFormatter.m in Sources */,
 				6503C0C51736EAC100346B45 /* DispatchQueueLogFormatter.m in Sources */,
+				6503C12517383FDA00346B45 /* NSManagedObjectContext+danthorpe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +386,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -472,6 +488,7 @@
 				6503C0AA1736E6A400346B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6503C0AB1736E6A400346B45 /* Build configuration list for PBXNativeTarget "BSExternalsTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +497,7 @@
 				6503C0AD1736E6A400346B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

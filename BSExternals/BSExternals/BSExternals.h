@@ -15,4 +15,6 @@
 #import "DDFileLogger.h"
 #import "DDTTYLogger.h"
 
+#import "NSManagedObjectContext+danthorpe.h"
+
 #endif
