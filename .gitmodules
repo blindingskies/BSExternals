@@ -10,3 +10,6 @@
 [submodule "Sources/TTTAttributedLabel"]
 	path = Sources/TTTAttributedLabel
 	url = git://github.com/mattt/TTTAttributedLabel.git
+[submodule "Sources/TMCache"]
+	path = Sources/TMCache
+	url = git://github.com/tumblr/TMCache.git

@@ -50,6 +50,13 @@
 		6503C14D17384DFC00346B45 /* UIImageView+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6503C13917384DB300346B45 /* UIImageView+AFNetworking.h */; };
 		6503C156173863F600346B45 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6503C155173863F600346B45 /* TTTAttributedLabel.m */; };
 		6503C1571738643F00346B45 /* TTTAttributedLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6503C154173863F600346B45 /* TTTAttributedLabel.h */; };
+		6505B9E4173E933600C62623 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6505B9DF173E933600C62623 /* TMCache.m */; };
+		6505B9E5173E933600C62623 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6505B9E1173E933600C62623 /* TMDiskCache.m */; };
+		6505B9E6173E933600C62623 /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6505B9E3173E933600C62623 /* TMMemoryCache.m */; };
+		6505B9EB173E9B6400C62623 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6505B9EA173E9B6400C62623 /* UIKit.framework */; };
+		6505B9EC173E9B9F00C62623 /* TMCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6505B9DE173E933600C62623 /* TMCache.h */; };
+		6505B9ED173E9B9F00C62623 /* TMDiskCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6505B9E0173E933600C62623 /* TMDiskCache.h */; };
+		6505B9EE173E9B9F00C62623 /* TMMemoryCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6505B9E2173E933600C62623 /* TMMemoryCache.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +94,9 @@
 				6503C14C17384DF800346B45 /* AFXMLRequestOperation.h in CopyFiles */,
 				6503C14D17384DFC00346B45 /* UIImageView+AFNetworking.h in CopyFiles */,
 				6503C1571738643F00346B45 /* TTTAttributedLabel.h in CopyFiles */,
+				6505B9EC173E9B9F00C62623 /* TMCache.h in CopyFiles */,
+				6505B9ED173E9B9F00C62623 /* TMDiskCache.h in CopyFiles */,
+				6505B9EE173E9B9F00C62623 /* TMMemoryCache.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +152,13 @@
 		6503C13A17384DB300346B45 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		6503C154173863F600346B45 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
 		6503C155173863F600346B45 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		6505B9DE173E933600C62623 /* TMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCache.h; sourceTree = "<group>"; };
+		6505B9DF173E933600C62623 /* TMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCache.m; sourceTree = "<group>"; };
+		6505B9E0173E933600C62623 /* TMDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDiskCache.h; sourceTree = "<group>"; };
+		6505B9E1173E933600C62623 /* TMDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDiskCache.m; sourceTree = "<group>"; };
+		6505B9E2173E933600C62623 /* TMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMMemoryCache.h; sourceTree = "<group>"; };
+		6505B9E3173E933600C62623 /* TMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMMemoryCache.m; sourceTree = "<group>"; };
+		6505B9EA173E9B6400C62623 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6505B9EB173E9B6400C62623 /* UIKit.framework in Frameworks */,
 				6503C0871736E6A400346B45 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +207,7 @@
 		6503C0851736E6A400346B45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6505B9EA173E9B6400C62623 /* UIKit.framework */,
 				6503C0861736E6A400346B45 /* Foundation.framework */,
 				6503C0951736E6A400346B45 /* SenTestingKit.framework */,
 				6503C0971736E6A400346B45 /* UIKit.framework */,
@@ -199,6 +218,7 @@
 		6503C0881736E6A400346B45 /* BSExternals */ = {
 			isa = PBXGroup;
 			children = (
+				6505B9DD173E933600C62623 /* TMCache */,
 				6503C12717384DB300346B45 /* AFNetworking */,
 				6503C0AE1736EAC100346B45 /* Lumberjack */,
 				6503C12117383FDA00346B45 /* NSManagedObjectContext-danthorpe */,
@@ -312,6 +332,20 @@
 			);
 			name = TTTAttributedLabel;
 			path = ../../Sources/TTTAttributedLabel/TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		6505B9DD173E933600C62623 /* TMCache */ = {
+			isa = PBXGroup;
+			children = (
+				6505B9DE173E933600C62623 /* TMCache.h */,
+				6505B9DF173E933600C62623 /* TMCache.m */,
+				6505B9E0173E933600C62623 /* TMDiskCache.h */,
+				6505B9E1173E933600C62623 /* TMDiskCache.m */,
+				6505B9E2173E933600C62623 /* TMMemoryCache.h */,
+				6505B9E3173E933600C62623 /* TMMemoryCache.m */,
+			);
+			name = TMCache;
+			path = ../../Sources/TMCache/TMCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +464,9 @@
 				6503C14217384DB300346B45 /* AFXMLRequestOperation.m in Sources */,
 				6503C14317384DB300346B45 /* UIImageView+AFNetworking.m in Sources */,
 				6503C156173863F600346B45 /* TTTAttributedLabel.m in Sources */,
+				6505B9E4173E933600C62623 /* TMCache.m in Sources */,
+				6505B9E5173E933600C62623 /* TMDiskCache.m in Sources */,
+				6505B9E6173E933600C62623 /* TMMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
